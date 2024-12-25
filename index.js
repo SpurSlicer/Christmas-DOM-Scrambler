@@ -15,4 +15,4 @@ const scramble = (element) => {
         scramble(child);
     }
 }
-(() => { setInterval(() => {scramble(document.querySelector('html'));}, 100) })();
+(() => { setInterval(() => {scramble(document.querySelector('body'));}, 100) })();
